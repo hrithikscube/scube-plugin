@@ -1,0 +1,29 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "3b375c0b8ca406dc4222b66bb37afb64"
+name = "my-awesome-app"
+handle = "my-awesome-app-130"
+application_url = "https://knights-dutch-adventure-protective.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "my-scube-store.myshopify.com"
+include_config_on_deploy = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://knights-dutch-adventure-protective.trycloudflare.com/auth/callback",
+  "https://knights-dutch-adventure-protective.trycloudflare.com/auth/shopify/callback",
+  "https://knights-dutch-adventure-protective.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-04"
+
+[pos]
+embedded = false
