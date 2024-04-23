@@ -157,8 +157,8 @@ const Dashboard = () => {
           </p>
         </div>
 
-        <div className="flex flex-row gap-4">
-          <div className="lg:w-3/12 min-h-[200px] flex flex-col gap-4">
+        <div className="flex flex-row gap-6">
+          <div className="lg:w-3/12 min-h-[200px] flex flex-col gap-6">
             <div className="w-full h-[175px] shadow bg-white rounded-lg p-4 flex flex-col gap-1 ">
               <p className="text-base">Gross Profit</p>
 
@@ -218,7 +218,7 @@ const Dashboard = () => {
 
         <div className="flex flex-row items-start justify-start gap-6 snap-x snap-mandatory overflow-x-auto w-full pb-4">
           {React.Children.toArray(
-            overviewItems.map((item) => (
+            [...Array(10).keys()].map((item) => (
               <div className="w-1/4 flex-shrink-0 h-auto shadow bg-white rounded-lg p-4 flex flex-col gap-1 snap-center">
                 <div className="flex flex-row gap-4">
                   <div className="w-7 h-7 bg-gray-400 rounded" />
@@ -272,13 +272,13 @@ const Dashboard = () => {
         </div>
       </div>
 
-      <div className="flex flex-col gap-6">
+      <div className="flex flex-col gap-6 w-full">
         <div className="flex flex-col">
           <h1 className="lg:text-xl text-base font-semibold">Marketing</h1>
           <p>Track your marketing efforts at a glance</p>
         </div>
 
-        <div className="grid grid-cols-4 gap-6">
+        <div className="grid grid-cols-4 gap-6 w-full">
           {React.Children.toArray(
             marketStats.map((item) => (
               <div className="bg-white rounded-lg shadow min-h-[135px] p-4 grid grid-cols-1">
@@ -289,12 +289,12 @@ const Dashboard = () => {
           )}
         </div>
 
-        <div className="flex flex-row items-start gap-6">
-          <div className="flex flex-col p-4 rounded-lg bg-white shadow lg:w-3/12 min-h-[400px]">
+        <div className="grid grid-cols-4 items-start gap-6">
+          <div className="flex flex-col p-4 rounded-lg bg-white shadow   min-h-[400px]">
             <p className="text-base">Ad Spend</p>
           </div>
 
-          <div className="flex flex-col p-4 rounded-lg bg-white shadow lg:w-9/12 min-h-[400px]">
+          <div className="flex flex-col p-4 rounded-lg bg-white shadow lg:w-full min-h-[400px] col-span-3">
             <p className="text-base">Ad Spend Trend</p>
           </div>
         </div>

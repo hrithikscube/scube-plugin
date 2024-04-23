@@ -25,6 +25,8 @@ export default function App() {
         <Link to="/app/dashboard">Dashboard</Link>
         <Link to="/app/orders">Orders</Link>
         <Link to="/app/products">Products</Link>
+        <Link to="/app/inventory">Inventory</Link>
+
 
       </ui-nav-menu>
       

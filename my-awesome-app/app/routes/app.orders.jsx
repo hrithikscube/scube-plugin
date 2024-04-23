@@ -66,14 +66,14 @@ const Orders = () => {
           </div>
         </div>
 
-        <div className="lg:w-2/12">
+        {/* <div className="lg:w-2/12">
           <Select
             label="Sales Channel"
             options={options}
             onChange={(value) => handleChange('sales_channel', value)}
             value={params.sales_channel}
           />
-        </div>
+        </div> */}
       </div>
 
       {activeView === 'orders' ? (
