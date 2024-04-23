@@ -17,7 +17,7 @@ export default function App() {
           rel="stylesheet"
           href="https://cdn.shopify.com/static/fonts/inter/v4/styles.css"
         />
-         <script type="text/javascript" src="https://cdn.tailwindcss.com"></script>
+         <script rel="preload" type="text/javascript" src="tailwind.js"></script>
         <Meta />
         <Links />
       </head>

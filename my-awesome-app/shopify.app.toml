@@ -3,7 +3,7 @@
 client_id = "3b375c0b8ca406dc4222b66bb37afb64"
 name = "my-awesome-app"
 handle = "my-awesome-app-130"
-application_url = "https://met-serbia-sp-discussions.trycloudflare.com"
+application_url = "https://knights-dutch-adventure-protective.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://met-serbia-sp-discussions.trycloudflare.com/auth/callback",
-  "https://met-serbia-sp-discussions.trycloudflare.com/auth/shopify/callback",
-  "https://met-serbia-sp-discussions.trycloudflare.com/api/auth/callback"
+  "https://knights-dutch-adventure-protective.trycloudflare.com/auth/callback",
+  "https://knights-dutch-adventure-protective.trycloudflare.com/auth/shopify/callback",
+  "https://knights-dutch-adventure-protective.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
