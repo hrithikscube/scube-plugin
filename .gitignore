@@ -1,22 +1,15 @@
 node_modules
 
-/my-awesome-app/.cache
-/my-awesome-app/build
-/my-awesome-app/app/build
-/my-awesome-app/public/build/
-/my-awesome-app/public/_dev
-/my-awesome-app/app/public/build
-/my-awesome-app/prisma/dev.sqlite
-/my-awesome-app/prisma/dev.sqlite-journal
-/my-awesome-app/database.sqlite
+/.cache
+/build
+/app/build
+/public/build/
+/public/_dev
+/app/public/build
+/prisma/dev.sqlite
+/prisma/dev.sqlite-journal
+database.sqlite
 
-/my-awesome-app/.env
-/my-awesome-app/package-lock.json
-/my-awesome-app/yarn.lock
-
-
-/server/.env
-/server/package-lock.json
-/server/node_modules
-
-
+.env
+package-lock.json
+yarn.lock

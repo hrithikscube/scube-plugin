@@ -3,7 +3,7 @@
 client_id = "3b375c0b8ca406dc4222b66bb37afb64"
 name = "my-awesome-app"
 handle = "my-awesome-app-130"
-application_url = "https://min-includes-protect-midwest.trycloudflare.com"
+application_url = "https://tc-allen-conditions-resolution.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://min-includes-protect-midwest.trycloudflare.com/auth/callback",
-  "https://min-includes-protect-midwest.trycloudflare.com/auth/shopify/callback",
-  "https://min-includes-protect-midwest.trycloudflare.com/api/auth/callback"
+  "https://tc-allen-conditions-resolution.trycloudflare.com/auth/callback",
+  "https://tc-allen-conditions-resolution.trycloudflare.com/auth/shopify/callback",
+  "https://tc-allen-conditions-resolution.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
